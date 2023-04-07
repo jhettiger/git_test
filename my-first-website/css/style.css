@@ -1,0 +1,139 @@
+body {
+    background-color: #000;
+    background-image: url(../img/leaves.webp);
+    color: white;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #FFCC00;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.2; /*adds padding to top and bottom from center of line*/
+    font-size: 24px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: green;
+    font-family:cursive;
+    margin-bottom: -10px;
+}
+
+div {
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+}
+
+span {
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.top-section {
+    background-color: navy;
+}
+
+#bottom-section {
+    background-image: url(../img/car.jpg);
+    border: 10px solid yellow;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 25px;
+}
+
+.highlight{
+    background: gray;
+}
+
+.accent-color{
+    color: rgb(5, 77, 23);
+}
+ /* Margin- empty space outside element
+    Border- border around element
+    Padding- empty space inside around element 
+    values listed top -> right -> bottom -> left like a clock
+ */
+.box {
+    background: gray;
+    width: 400px;
+    margin: 100px;
+    border: 5px solid green;
+    border-left: 5px dashed red;
+    border-top-style: double;
+    padding: 50px 25px 40px 60px;
+    /*total width = 400+100+100+5+5+25+60=695px*/
+}
+
+.bold{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.bolder{
+    font-weight: bolder;
+    text-transform:uppercase;
+}
+
+/*use link styling in this order below*/
+a:link {
+    color: red;
+}
+
+a:visited{
+    color: pink;
+}
+
+a:hover,a:focus{
+    color: blue;
+    text-decoration: none;
+}
+
+a:active {
+    color: purple;
+}
+
+.body-text{
+    background-color: #7984eb;
+    padding: 10px;
+}
+
+/*modify without using classes*/
+.body-text p {
+    color: white;
+    padding-bottom: 0;
+}
+
+ul{
+    color: black;
+    list-style-type:square;
+    /*list-style-image: url(); for image as bullet point*/
+    background-color: orange;
+    padding: 50px;
+    text-align: center;
+}
+
+ol{
+    list-style-type: upper-roman;
+    color: black;
+    text-align: center;
+    list-style-position: inside; /*bring bullet point w/list*/
+}
+
+ul li {
+    background-color: yellow;
+    margin-bottom: 15px;
+}
+
+ol li{
+    background-color: gray;
+    margin-bottom: 10px;
+}
